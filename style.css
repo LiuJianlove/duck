@@ -199,7 +199,7 @@ body {
 
 @-webkit-keyframes walk {
   0% {
-    top: 350px;
+    top: 349px;
   }
   50% {
     top: 325px;
