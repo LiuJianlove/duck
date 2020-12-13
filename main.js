@@ -1,3 +1,0 @@
-/*
-Chrome and Safari only
- */

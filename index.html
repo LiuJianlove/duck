@@ -1,38 +1,63 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>duck</title>
-</head>
-<link rel="stylesheet" type="text/css" href="style.css">
-<body>
-	<div class='contain'>
-  <div class='hair'></div>
-  <div class='hair hair-2'></div>
-  <div class='head'>
-    <div class='nose-top'>
-      <div class='mouth'></div>
-    </div>
-    <div class='eye'>
-      <div class='pupil'></div>
-    </div>
-    <div class='eye eye-right'>
-      <div class='pupil'></div>
-    </div>
-  </div>
-  <div class='body'>
-    <div class='wing'></div>
-    <div class='wing wing-right'></div>
-  </div>
-  <div class='legs'>
-    <div class='feet'></div>
-  </div>
-  <div class='legs leg-right'>
-    <div class='feet foot-right'></div>
-  </div>
-</div>
-<div class='grass'></div>
+<html lang="zh-Hans">
 
-	
+<head>
+  <meta charset="UTF-8">
+  <title>画一只小黄鸭给你看</title>
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="./style.css">
+  <style id="styleTag"></style>
+</head>
+
+<body>
+  <div class="code-wrapper">
+    <pre id="code"></pre>
+  </div>
+  <div class="preview-wrapper">
+    <div class="preview">
+      <div class="wrapper">
+        <div class="lowerLip-wrapper">
+          <div class="lowerLip"></div>
+        </div>
+        <div class='contain'>
+          <div class='hair'></div>
+          <div class='hair hair-2'></div>
+          <div class='head'>
+            <div class='nose-top'>
+              <div class='mouth'></div>
+            </div>
+            <div class='eye'>
+              <div class='pupil'></div>
+            </div>
+            <div class='eye eye-right'>
+              <div class='pupil'></div>
+            </div>
+          </div>
+          <div class='body'>
+            <div class='wing'></div>
+            <div class='wing wing-right'></div>
+          </div>
+          <div class='legs'>
+            <div class='feet'></div>
+          </div>
+          <div class='legs leg-right'>
+            <div class='feet foot-right'></div>
+          </div>
+        </div>
+        <div class='grass'></div>
+      </div>
+    </div>
+  </div>
+  <div class="actions">
+    <button data-speed="slow">慢速</button>
+    <button data-speed="normal" class="active">中速</button>
+    <button data-speed="fast">快速</button>
+  </div>
+  <script src="./vendor/jquery.min.js"></script>
+  <script src="./js/main.js"></script>
+
+
 </body>
+
 </html>
