@@ -1,12 +1,14 @@
 body {
   background-color: #c4edf7;
   margin: 0 auto;
+  border: 2px solid black;
 }
 
 .contain {
   width: 200px;
   margin: auto;
   position: relative;
+  border: 2px solid red;
 }
 
 .head {
@@ -90,6 +92,7 @@ body {
   border-radius: 400% 400% 400% 400%;
   position: absolute;
   top: 170px;
+  border: 1px solid green;
 }
 
 .wing {
@@ -141,6 +144,7 @@ body {
   background-color: #a1d197;
   position: absolute;
   top: 415px;
+  border: 1px solid grey;
 }
 
 .legs {
