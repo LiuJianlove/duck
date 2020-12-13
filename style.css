@@ -1,14 +1,14 @@
 body {
   background-color: #c4edf7;
   margin: 0 auto;
-  border: 2px solid black;
+  
 }
 
 .contain {
   width: 200px;
   margin: auto;
   position: relative;
-  border: 2px solid red;
+  
 }
 
 .head {
