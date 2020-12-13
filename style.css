@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{margin: 0; padding: 0; box-sizing: border-box;}
 *::after{
   box-sizing: border-box;
@@ -51,6 +52,209 @@ body{
   height: 250px;
   position: relative;
   
+=======
+body {
+  background-color: #c4edf7;
+  margin: 0 auto;
+  
+}
+
+.contain {
+  width: 200px;
+  margin: auto;
+  position: relative;
+  
+}
+
+.head {
+  background-color: #fbc252;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  position: absolute;
+  z-index: -1;
+  top: 30px;
+  -webkit-animation: bob 2s infinite;
+}
+
+.hair {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 15px solid #fbc252;
+  position: absolute;
+  -webkit-transform: rotate(-85deg);
+  left: 80px;
+  top: 25px;
+  -webkit-animation: bob-hair 2s infinite;
+}
+
+.hair-2 {
+  left: 70px;
+}
+
+.nose-top {
+  width: 90px;
+  height: 40px;
+  background-color: #db7c1d;
+  border-radius: 50%;
+  position: absolute;
+  top: 90px;
+  left: 30px;
+  z-index: 3;
+}
+
+.mouth {
+  width: 87px;
+  height: 10px;
+  border-bottom: 2px solid #b7670f;
+  position: absolute;
+  top: 19px;
+  border-radius: 50%;
+  left: 1px;
+  opacity: .90;
+}
+
+.eye {
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  position: absolute;
+  border-radius: 50%;
+  top: 50px;
+  left: 35px;
+}
+
+.eye-right {
+  left: 96px;
+}
+
+.pupil {
+  height: 7px;
+  width: 7px;
+  background-color: black;
+  border-radius: 50%;
+  position: absolute;
+  top: 6px;
+  left: 6px;
+}
+
+.body {
+  height: 200px;
+  width: 150px;
+  background-color: #fbc252;
+  border-radius: 400% 400% 400% 400%;
+  position: absolute;
+  top: 170px;
+  border: 1px solid green;
+}
+
+.wing {
+  height: 150px;
+  width: 60px;
+  background-color: #fbc252;
+  border-radius: 50%;
+  position: absolute;
+  -webkit-transform: rotate(80deg);
+  top: 10px;
+  left: -45px;
+  -webkit-animation: fly 2s infinite;
+}
+
+.wing-right {
+  -webkit-transform: rotate(-80deg);
+  left: 135px;
+  -webkit-animation: fly-2 2s infinite;
+}
+
+.legs {
+  width: 10px;
+  height: 60px;
+  background-color: #db7c1d;
+  position: absolute;
+  top: 350px;
+  z-index: -1;
+  left: 50px;
+}
+
+.leg-right {
+  left: 90px;
+}
+
+.feet {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 15px solid #db7c1d;
+  position: absolute;
+  top: 50px;
+  left: -15px;
+}
+
+.grass {
+  width: 100%;
+  height: 350px;
+  background-color: #a1d197;
+  position: absolute;
+  top: 415px;
+  border: 1px solid grey;
+}
+
+.legs {
+  position: absolute;
+  -webkit-animation: walk 2s infinite;
+}
+
+.leg-right {
+  position: absolute;
+  -webkit-animation: walk 2s infinite;
+  -webkit-animation-delay: 1s;
+}
+
+@-webkit-keyframes bob {
+  50% {
+    top: 27px;
+  }
+  100% {
+    top: 30px;
+  }
+}
+
+@-webkit-keyframes bob-hair {
+  50% {
+    top: 23px;
+  }
+  100% {
+    top: 25px;
+  }
+}
+
+@-webkit-keyframes fly {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 20px;
+    -webkit-transform: rotate(65deg);
+  }
+  100% {
+    top: 0
+  }
+}
+@-webkit-keyframes fly-2 {
+  0% {
+    top: 0;
+  }
+  50% {
+    top: 20px;
+    -webkit-transform: rotate(-65deg);
+  }
+  100% {
+    top: 0
+  }
+>>>>>>> 54365b25b77cc8146eff006a50ec83f99b6aa868
 }
 .preview{
   height: 100%;
