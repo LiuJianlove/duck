@@ -202,7 +202,7 @@
  */
 .grass {
   width: 100%;
-  height: 210px;
+  height: 110px;
   background-color: #a1d197;
   position: absolute;
   top: 249px;
